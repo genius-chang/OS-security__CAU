@@ -8,15 +8,14 @@ def process(name, duration):
 
 def timer_interrupt():
     while True:
-        time.sleep(5)  # Timer interval: 5 seconds
+        time.sleep(____)  # Fill in the blank: Set the timer interval (in seconds)
         print("Timer interrupt: Switching process!")
 
 # Run the timer interrupt in a separate thread
-interrupt_thread = threading.Thread(target=timer_interrupt)
+interrupt_thread = threading.Thread(target=____)  # Fill in the blank: Assign the timer_interrupt function here
 interrupt_thread.daemon = True
 interrupt_thread.start()
 
 # Run processes A and B
-process("Process A", 10)
-process("Process B", 10)
-
+process("____", 10)  # Fill in the blank: Enter the name for the first process
+process("____", 10)  # Fill in the blank: Enter the name for the second process
