@@ -1,6 +1,7 @@
 <h1>Timer Interrupt Simulation</h1>
 <h3>Description</h3>
-This project simulates a timer interrupt mechanism using Python, which switches between two processes at a regular interval. The script demonstrates how an operating system manages process switching using timer interrupts.
+This project simulates a timer interrupt mechanism using Python, which switches between two processes at a regular interval. 
+The script demonstrates how an operating system manages process switching using timer interrupts.
 
 <h3>Features</h3>
 Simulates process switching: Alternates between two processes, "Process A" and "Process B," with a 5-second timer interrupt.
