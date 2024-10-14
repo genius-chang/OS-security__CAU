@@ -11,11 +11,7 @@ processes = [
 def sjf_scheduling(processes):
     print("SJF Scheduling")
     # Sort processes by duration and run the shortest one first
-    sorted_processes = sorted(_______, key=lambda x: x[1])
-    for _______, _______ in ______________:
-        print(f"{process} is running for {duration} seconds")
-        time.sleep(_______)
-    print("All processes in SJF completed.\n")
+    # Write the code that runs the shortest process first
 
 # Execute SJF scheduling
 sjf_scheduling(processes)
