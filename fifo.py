@@ -11,10 +11,8 @@ processes = [
 def fifo_scheduling(processes):
     print("FIFO Scheduling")
     # Run processes in the order they are listed
-    for _______, _______ in _______:
-        print(f"{process} is running for {duration} seconds")
-        time.sleep(_______)
-    print("All processes in FIFO completed.\n")
+    ## Write the code that runs the process in the order listed
+    
 
 # Execute FIFO scheduling
 fifo_scheduling(_______)
